@@ -78,6 +78,16 @@ header a{
     scale: 0.8;
 }
 
+.greek-img1{
+    display: inline-flexbox;
+    float: left;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.greek-img1:hover{
+    scale: 1.05;
+}
 
 footer{
     background-color: aliceblue;
