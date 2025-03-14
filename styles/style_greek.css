@@ -93,8 +93,9 @@ footer{
     background-color: aliceblue;
     text-align: center;
     clear: both;
+    display: flexbox;
     position: relative;
-    padding: 5px;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
+
 }
