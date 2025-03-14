@@ -102,14 +102,15 @@ input[type="password"] {
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 
 .main-form{
-    width: 50%;
+    width: 15%;
     background-color: hsl(34, 100%, 80%);
     display: block;
     border: none;
@@ -120,24 +121,38 @@ input[type="password"] {
 }
 
 .main-form label{
-    margin-left: 25px;
+    margin-left: 15px;
     margin-top: 5px;
 }
 
 .main-form input{
     width: 90%;
     text-align: center;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .main-form textarea{
-    width: 90%;
-    margin-left: 25px;
+    width: 100%;
+    max-width: 100%; /* Prevents overflow */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    resize: vertical; /* Allows resizing only vertically */
+}
+
+.main-form .btn{
+    width: 80%;
+    max-width: 100%; /* Prevents overflow */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    resize: vertical; /* Allows resizing only vertically */
+    text-align: center;
+    padding: 10px 20px;
 }
 
 
 @media (max-width:800px) {
     body{
         font-size: 12px;
+    }
+    input, textarea{
+        width: 70%;
     }
 }
