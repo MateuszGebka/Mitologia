@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: hsl(34, 78%, 91%);
+    padding: 1px;
+    text-align: center;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header a{
+    text-decoration: none;
+    color : hsl(208, 47%, 27%);
+    padding: 15px;
+}
+
+.navbar{
+    background-color: hsl(34, 78%, 75%);
+    padding: 1px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    flex: 1;
+}
+.nav-item a {
+    display: flex;
+    align-items: center; /* Wyrównanie tekstu w pionie */
+    justify-content: center; /* Opcjonalnie: wyrównanie w poziomie */
+    text-decoration: none;
+    color: brown;
+    height: 100%; /* Link zajmuje całą wysokość <li> */
+    padding: 15px 0; /* Zmniejsz marginesy wewnętrzne */
+}
+
+.nav-item a.active {
+    background-color:hsl(34, 78%, 61%); /* Kolor aktywnego linku */
+}
+.navbar a{
+    text-decoration: none;
+    color: hsl(33, 100%, 25%);
+}
+.navbar a:hover{
+    color: hsl(33, 100%, 30%);
+    scale: 1.1;
+}
+
+.home-main .section{
+    text-align: center;
+}
+.greek-main .section{
+    text-align: center;
+}
+.nordic-main .section{
+    text-align: center;
+}
+.roman-main .section{
+    text-align: center;
+}
+.aztec-main .section{
+    text-align: center;
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    clear: both;
+    display: flexbox;
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    width: 100%;
+}
