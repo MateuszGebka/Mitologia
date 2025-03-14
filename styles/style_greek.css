@@ -68,19 +68,23 @@ header a{
     text-align: center;
 }
 
+.music-box{
+    border: 2px solid;
+    background-color: rgb(50, 97, 137);
+    display: inline-flex;
+    position: sticky;
+    top: 5px;
+    left: 2px;
+    scale: 0.8;
+}
+
+
 footer{
     background-color: aliceblue;
     text-align: center;
     clear: both;
-    display: flexbox;
-    position: absolute;
+    position: relative;
     padding: 5px;
     bottom: 0px;
     width: 100%;
-}
-
-@media (max-width:800px) {
-    body{
-        font-size: 12px;
-    }
 }
