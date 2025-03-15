@@ -111,6 +111,20 @@ header a{
     color: brown;
 }
 
+.nordic-img1{
+    display: inline-flex;
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 7px;
+    box-shadow: 4px 4px 5px;
+
+}
+
+.nordic-img1:hover{
+    transform: scale(1.5) translateX(-35%);
+    box-shadow: 10px 10px 13px;
+}
+
 footer {
     background-color: aliceblue;
     text-align: center;
