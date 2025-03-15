@@ -1,8 +1,12 @@
-*{
-    box-sizing: border-box;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-body{
-    margin: 0px;
+
+main {
+    flex: 1; /* Makes the main content expand to push the footer down */
 }
 header{
     background-color: hsl(34, 78%, 91%);
@@ -18,14 +22,17 @@ header a{
 
 .navbar{
     background-color: hsl(34, 78%, 75%);
-    padding: 1px;
+    padding: 0px;
+    padding-bottom: 7px;
 }
 .navbar ul{
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
+    margin-left: 15px;
 }
+
 
 .nav-item{
     flex: 1;
@@ -36,8 +43,9 @@ header a{
     justify-content: center; /* Opcjonalnie: wyrównanie w poziomie */
     text-decoration: none;
     color: brown;
-    height: 100%; /* Link zajmuje całą wysokość <li> */
+    height: 50%; /* Link zajmuje całą wysokość <li> */
     padding: 15px 0; /* Zmniejsz marginesy wewnętrzne */
+    width: 200px;
 }
 
 .nav-item a.active {
@@ -68,13 +76,9 @@ header a{
     text-align: center;
 }
 
-footer{
+footer {
     background-color: aliceblue;
     text-align: center;
-    clear: both;
-    display: flexbox;
-    position: absolute;
-    padding: 5px;
-    bottom: 0px;
     width: 100%;
+    padding: 5px;
 }
