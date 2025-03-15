@@ -73,10 +73,11 @@ footer{
     text-align: center;
     clear: both;
     display: flexbox;
-    position: absolute;
+    position: relative;
     padding: 5px;
     bottom: 0px;
     width: 100%;
+    margin-top: 125px
 }
 
 form{
