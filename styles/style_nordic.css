@@ -60,21 +60,49 @@ header a{
     scale: 1.1;
 }
 
-.home-main .section{
-    text-align: center;
-}
-.greek-main .section{
-    text-align: center;
-}
 .nordic-main .section{
     text-align: center;
 }
-.roman-main .section{
-    text-align: center;
+
+.dropdown{
+    display: inline-block;
+    position: relative;
 }
-.aztec-main .section{
-    text-align: center;
+.dropdown button{
+    background-color: hsl(33, 100%, 88%);
+    color: rgb(85, 50, 50);
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: none;
 }
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .gods{
+    display: none;
+    position: absolute;
+    background-color: hsl(33, 100%, 78%);
+    min-width: 100px;
+    box-shadow: 3px 3px 5px;
+    left: 25px;
+    top: 100%
+}
+.dropdown:hover .gods{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(39, 100%, 75%);
+}
+
+.dropdown a:hover{
+    background-color: hsl(33, 100%, 67%);
+}
+
 
 footer {
     background-color: aliceblue;
