@@ -172,3 +172,30 @@ input[type="password"] {
         width: 50%;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        gap: 3px; /* Minimal gap */
+    }
+
+    .navbar .nav-item a {
+        padding: 6px 8px; /* Reduce padding inside links */
+        font-size: 14px; /* Optionally reduce font size */
+    }
+}
+
+/* Even smaller screens (phones) */
+@media (max-width: 480px) {
+    .navbar ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        gap: 3px; /* Minimal gap */
+    }
+
+    .navbar .nav-item a {
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+}
