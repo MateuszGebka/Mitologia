@@ -63,18 +63,7 @@ header a{
 .home-main .section{
     text-align: center;
 }
-.greek-main .section{
-    text-align: center;
-}
-.nordic-main .section{
-    text-align: center;
-}
-.roman-main .section{
-    text-align: center;
-}
-.aztec-main .section{
-    text-align: center;
-}
+
 
 footer{
     background-color: aliceblue;
@@ -125,6 +114,7 @@ input[type="password"] {
     border: none;
     border-radius: 15px;
     margin-left: 25px;
+    margin-top: 45px;
     box-shadow: 7px 7px 11px;
     align-items: center;
 }
@@ -157,11 +147,17 @@ input[type="password"] {
 }
 
 
+@media (max-width:1024px) {
+    .main-form{
+        width: 25%;
+    }
+}
+
 @media (max-width:800px) {
     body{
         font-size: 12px;
     }
     input, textarea{
-        width: 70%;
+        width: 50%;
     }
 }
