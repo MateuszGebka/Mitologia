@@ -65,12 +65,27 @@ header a{
 }
 
 .roman-img1{
-    margin-left: 15px;
+    margin: 15px;
     display: inline-flexbox;
+    float: left;
     animation-name: slideRight;
     animation-duration: 3s;
 }
 
+.roman-img2{
+    margin: 15px;
+    display: inline-flexbox;
+    float: right;
+    animation-name: slideDown;
+    animation-duration: 3s;
+}
+.roman-img3{
+    margin: 15px;
+    display: inline-flexbox;
+    float: left;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
 
 footer {
     background-color: aliceblue;
@@ -109,4 +124,12 @@ footer {
 
 @keyframes slideRight{
     from{transform: translateX(-200%);}
+}
+
+@keyframes slideDown{
+    from{transform: translateY(-200%);}
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(200%);}
 }
