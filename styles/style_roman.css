@@ -60,21 +60,18 @@ header a{
     scale: 1.1;
 }
 
-.home-main .section{
-    text-align: center;
-}
-.greek-main .section{
-    text-align: center;
-}
-.nordic-main .section{
-    text-align: center;
-}
 .roman-main .section{
     text-align: center;
 }
-.aztec-main .section{
-    text-align: center;
+
+.roman-img1{
+    margin-left: 15px;
+    display: inline-flexbox;
+    animation-name: slideRight;
+    animation-duration: 3s;
 }
+
+
 footer {
     background-color: aliceblue;
     text-align: center;
@@ -108,4 +105,8 @@ footer {
         padding: 5px 7px;
         font-size: 12px;
     }
+}
+
+@keyframes slideRight{
+    from{transform: translateX(-200%);}
 }
