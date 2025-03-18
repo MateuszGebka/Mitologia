@@ -86,11 +86,12 @@ header a{
     animation-duration: 3s;
 }
 .roman-img3{
-    margin: 15px;
+    margin: 10px;
     display: inline-flexbox;
     float: left;
     animation-name: slideLeft;
     animation-duration: 3s;
+    scale: 0.9;
 }
 
 footer {
