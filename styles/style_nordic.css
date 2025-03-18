@@ -110,6 +110,12 @@ header a{
     background-color: beige;
     color: brown;
 }
+#p5{
+    background-color: blueviolet;
+    color: hsl(271, 64%, 74%);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .nordic-img1{
     display: inline-flex;
