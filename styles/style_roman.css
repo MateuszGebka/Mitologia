@@ -8,6 +8,12 @@ html, body {
 main {
     flex: 1; /* Makes the main content expand to push the footer down */
 }
+
+#p1{
+    background-color: coral;
+    color: blue;
+    text-align: center;
+}
 header{
     background-color: hsl(34, 78%, 91%);
     padding: 1px;
