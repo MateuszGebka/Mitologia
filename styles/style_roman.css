@@ -30,6 +30,7 @@ header a{
     background-color: hsl(34, 78%, 75%);
     padding: 0px;
     padding-bottom: 7px;
+    justify-items: center;
 }
 .navbar ul{
     list-style-type: none;
