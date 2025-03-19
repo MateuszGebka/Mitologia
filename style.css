@@ -24,13 +24,13 @@ header a{
     background-color: hsl(34, 78%, 75%);
     padding: 0px;
     padding-bottom: 7px;
+    justify-items: center;
 }
 .navbar ul{
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 15px;
 }
 
 
@@ -54,10 +54,12 @@ header a{
 .navbar a{
     text-decoration: none;
     color: hsl(33, 100%, 25%);
+    transition: 0.9s ease;
 }
 .navbar a:hover{
     color: hsl(33, 100%, 30%);
-    scale: 1.1;
+    scale: 1.05;
+    color: red;
 }
 
 .home-main .section{

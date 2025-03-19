@@ -31,7 +31,6 @@ header a{
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 15px;
 }
 
 
@@ -55,11 +54,15 @@ header a{
 .navbar a{
     text-decoration: none;
     color: hsl(33, 100%, 25%);
+    transition: 0.9s ease;
 }
 .navbar a:hover{
     color: hsl(33, 100%, 30%);
-    scale: 1.1;
+    scale: 1.05;
+    color: red;
+
 }
+
 
 .home-main .section{
     text-align: center;

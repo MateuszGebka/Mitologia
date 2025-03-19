@@ -53,10 +53,13 @@ header a{
 .navbar a{
     text-decoration: none;
     color: hsl(33, 100%, 25%);
+    transition: 0.9s ease;
 }
 .navbar a:hover{
     color: hsl(33, 100%, 30%);
     scale: 1.05;
+    color: red;
+
 }
 
 .home-main .section{
