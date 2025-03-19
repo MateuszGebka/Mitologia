@@ -18,12 +18,8 @@ header a{
     text-decoration: none;
     color : hsl(208, 47%, 27%);
     padding: 15px;
-    transition: 0.9 ease;
 }
-header a:hover{
-    scale: 1.1;
-    color: red;
-}
+
 
 .navbar{
     background-color: hsl(34, 78%, 75%);
