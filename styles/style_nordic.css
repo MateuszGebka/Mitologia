@@ -118,12 +118,15 @@ header a{
 }
 
 .nordic-img1{
-    display: inline-flex;
+    display: inline-flexbox;
     float: right;
     border: 2px solid rgb(255, 255, 255);
     margin: 7px;
     box-shadow: 4px 4px 5px;
+}
 
+.nordic-img1 img{
+    width: 450px;
 }
 
 .nordic-img1:hover{
@@ -144,6 +147,15 @@ footer {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items */
         gap: 3px; /* Minimal gap */
+    }
+
+    .nordic-img1 img{
+        width: 250px;
+    }
+
+    .nordic-img1:hover{
+        transform: scale(1.55) translateX(-35%);
+        box-shadow: 10px 10px 13px;
     }
 
     .navbar .nav-item a {
