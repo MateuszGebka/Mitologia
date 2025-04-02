@@ -172,21 +172,16 @@ header a{
 }
 
 
-.home-main .section{
-    text-align: center;
-}
-.greek-main .section{
-    text-align: center;
-}
-.nordic-main .section{
-    text-align: center;
-}
-.roman-main .section{
-    text-align: center;
-}
 .aztec-main .section{
     text-align: center;
 }
+
+#aztec-img1{
+    display: flexbox;
+    float: left;
+    margin-left: 25px;
+}
+
 
 footer {
     background-color: aliceblue;
