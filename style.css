@@ -212,19 +212,19 @@ input, textarea {
 }
 
 input[type="password"] {
-    width: calc(100%); /* Adjust width if icons are inside input */
+    width: calc(100%); 
 }
 
 .container {
     width: 100%;
-    max-width: 300px; /* Adjust as needed */
+    max-width: 350px; 
     padding: 10px;
     box-sizing: border-box;
 }
 
 
 .main-form{
-    width: 20%;
+    width: 15%;
     background-color: hsl(34, 100%, 80%);
     display: block;
     border: none;
