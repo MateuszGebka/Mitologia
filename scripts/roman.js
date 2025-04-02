@@ -9,7 +9,7 @@ function enableDarkMode() {
     header.classList.add('dark-mode');
     footer.classList.add('dark-mode');
     toggleSwitch.checked = true;
-    localStorage.setItem('theme', 'dark'); 
+    localStorage.setItem('theme', 'dark');
 }
 
 
@@ -18,7 +18,7 @@ function disableDarkMode() {
     header.classList.remove('dark-mode');
     footer.classList.remove('dark-mode');
     toggleSwitch.checked = false;
-    localStorage.setItem('theme', 'light');
+    localStorage.setItem('theme', 'light'); 
 }
 
 

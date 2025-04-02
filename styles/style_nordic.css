@@ -124,9 +124,6 @@ header h3{
 
 
 
-
-
-
 header a{
     text-decoration: none;
     color : hsl(208, 47%, 27%);
@@ -136,7 +133,7 @@ header a{
 .navbar{
     background-color: hsl(34, 78%, 75%);
     padding: 0px;
-    padding-bottom: 7px;
+    padding-bottom: 2px;
     justify-items: center;
 }
 .navbar ul{
